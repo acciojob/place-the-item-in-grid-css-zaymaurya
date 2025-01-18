@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+.holder {
+	display: grid;
+	grid-template-rows: repeat(2. 1fr);
+	grid-template-columns: repeat(2. 1fr);
+	width: 200px;
+	height: 200px;
+	
+}
+
+.item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	background-color: #555;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
